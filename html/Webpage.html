@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeSOFT Technology</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* styles.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #dcdcdc;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red; 
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+main {
+    padding: 40px;
+    text-align: center;
+}
+body {
+    background-color: #3a3a3a; 
+}
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #FF4136;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E63E31;
+}
+
+
+.services {
+    margin-top: 40px;
+}
+
+.intro h1 {
+            color: #ff0000; 
+        }
+
+        .intro p {
+            color: #fcfcfc; 
+            margin-bottom: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .services h2 {
+            color: #ff0000; 
+            margin-bottom: 20px;
+        }
+
+.services ul {
+    list-style: none;
+    font-size: 16px;
+}
+
+.services li {
+    margin-bottom: 10px;
+} 
+p {
+            color: #b4adad; 
+            margin-bottom: 20px;
+            font-size: small; 
+            font-family: 'Courier New', Courier, monospace; 
+        }
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+}
+
+img:hover {
+    transform: scale(1.05); 
+}
+.photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .photo-gallery img {
+            width: calc(33.33% - 10px); 
+            height: 200px; 
+            object-fit: cover;
+        }
+
+@media screen and (max-width: 768px) {
+    .nav-items {
+        display: none;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+}
+
+</style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">NeoSOFT</a>
+        <nav class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro">
+            <h1>Welcome to NeSOFT Technology</h1>
+            <p>Your trusted partner for innovative software solutions.</p>
+            <p>We are a leading software development company specializing in providing innovative solutions tailored to meet your business needs.</p>
+            
+            <button>Learn More</button>
+        </div><br>
+        <div class="photo-gallery">
+            <img src="https://wallpaper.dog/large/976125.jpg" alt="UI/UX">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8BXiYXIBeqYAoS2HH0qyPJbMnK40UqePhMw&usqp=CA" alt="Tech Workspace">
+            <img src="https://c8.alamy.com/comp/2F34R08/portrait-of-diverse-software-development-team-collaborating-on-project-in-modern-office-focus-on-lead-engineer-instructing-colleagues-copy-space-2F34R08.jpg" alt="Team Collaboration">
+        </div><br>
+
+        <div class="services">
+            <h2>Our Services</h2><br>
+            <div class="services-info">
+                <div class="service-item">
+                    <h3>Custom Software Development</h3><br>
+                    <p>Our custom software development services are meticulously designed to cater to the unique needs of your business. By closely collaborating with you, we tailor solutions that address your specific requirements, ensuring optimal functionality, scalability, and alignment with your organizational goals.</p>
+                </div><br>
+                <div class="service-item">
+                    <h3>Web and Mobile App Development</h3><br>
+                    <p>With a focus on quality and innovation, our team is dedicated to crafting top-notch web and mobile applications using cutting-edge technologies. By staying abreast of the latest advancements, we ensure that our solutions are not only robust and reliable but also capable of delivering exceptional user experiences across various platforms.</p>
+                </div><br>
+                <div class="service-item">
+                    <h3>Cloud Solutions</h3><br>
+                    <p>The inclusion of cloud solutions within our service offerings aims to assist businesses in optimizing their operational efficiency and enhancing scalability. Through leveraging cloud technologies, we enable organizations to streamline processes, minimize overhead costs, and adapt swiftly to changing business needs, fostering sustainable growth and competitiveness.</p>
+                </div><br>
+                <div class="service-item">
+                    <h3>UI/UX Design</h3> <br> 
+                    <p>The updated HTML introduces a section called "Our Services" with a `div` containing individual service items. Each service item is encapsulated within a `div` with the class `.service-item`, displaying information about specific software technologies provided by NeoSOFT Technology, such as custom software development, web and mobile app development, cloud solutions, and UI/UX design. Styling is applied to ensure uniform spacing, layout, and readability.</p>
+                </div>
+            </div>
+        </div>
+
+       
+    </main>
+
+    <footer>
+        <p>© 2024 NeSOFT Technology. All rights reserved.</p>
+    </footer>
+</body>
+</html>
